@@ -17,7 +17,6 @@ def show_encode(dir):
 			data = file.read()
 			file_encoding = chardet.detect(data)['encoding']
 			if(file_encoding != 'utf-8'):
-				print path + ': ' + str(file_encoding)
-	
+				print(str(path) + ': ' + str(file_encoding))
 
-show_encode('E:/')
+show_encode('E:/Project/PHP/UED')
