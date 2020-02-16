@@ -20,4 +20,5 @@ def show_encode(dir_path):
             if file_encoding != 'utf-8':
                 print(str(path) + ': ' + str(file_encoding))
 
-show_encode('E:/Project/PHP/UED')
+
+show_encode('E:/Project/Python')
